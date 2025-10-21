@@ -1,12 +1,21 @@
+@font-face {
+    font-family: 'Afacad Flux';
+    src: url(../fonts/AfacadFlux-VariableFont_slnt\,wght.ttf) format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+
+
 :root {
     --white:#fff
     --black:#000
-    --slate50:#f7f6f5
-    --slate100:#eceae8
-    --slate200:#e1ddda
-    --slate300:#c0b7b1
-    --slate400:#a69891
-    --slate500:#94827b
+    --color-tuscan-50:#f7f6f5
+    --tuscan-100:#eceae8
+    --tuscan00:#e1ddda
+    --tuscan300:#c0b7b1
+    --tuscan400:#a69891
+    --tuscan500:#94827b
     --flatblue50:#f3f7fc
     --flatblue100:#e5eff9
     --flatblue200:#c6def1
@@ -18,6 +27,23 @@
     --flatblue800:#1f4e74
 }
 
-body { background-color: var(--slate200) }
+/*main color*/
+body { background-color: #F8F3ED;
+    color: #111314;
+    font-family: 'Afacad Flux'; 
+}
 
+.playlist{ background-color:#1f4e74;
+    color: #fff;
+}
+ 
+
+.event +.lowersection { background-color: #111314;
+    color: #fff;
+
+}
+img + section { background-color: #5aa4d6;
+    
+
+}
 
