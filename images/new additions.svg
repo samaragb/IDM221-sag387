@@ -1,0 +1,36 @@
+<svg width="361" height="283" viewBox="0 0 361 283" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_n_142_605)">
+<g clip-path="url(#clip0_142_605)">
+<rect width="361" height="283" rx="10" fill="#9AF0FF"/>
+<g filter="url(#filter1_f_142_605)">
+<circle cx="181" cy="142" r="108" fill="#E2FFCF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_n_142_605" x="0" y="0" width="361" height="283" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.71428573131561279 0.71428573131561279" stitchTiles="stitch" numOctaves="3" result="noise" seed="4496" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(255, 55, 168, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_142_605">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<filter id="filter1_f_142_605" x="0.152939" y="-38.8471" width="361.694" height="361.694" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="36.4235" result="effect1_foregroundBlur_142_605"/>
+</filter>
+<clipPath id="clip0_142_605">
+<rect width="361" height="283" rx="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>
