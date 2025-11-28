@@ -47,6 +47,7 @@ body { background-color: var(--color-tuscan-50);
 
 }
 
+
 a > img:nth-child{ padding-right: 100px;
 
 }
@@ -54,10 +55,17 @@ a > img:nth-child{ padding-right: 100px;
 nav + img { margin-right: 6.8125rem;
     cursor: pointer;
     
-
 }
 
+video{ width: inherit;
+height: inherit}
 
+
+
+section,img {  display: flex;
+  flex-direction: row;
+
+}
 
 /* main vdeo */
  .container > img{ width: 100%;
@@ -68,7 +76,7 @@ footer > img { width: 48px;
     height: 48px;
 
 }
-.container1,.container2,.container3,.container4 { 
+.container1, .container2, .container3, .container4 { 
     margin-left: 16px;
     margin-top: 14px;
     width: 100% auto;
@@ -82,13 +90,17 @@ footer > img { width: 48px;
 
 }
 
+.container2 { background-image: url(../images/soul.feel_compressed.webp);
 
+}
 
-.container1,.container2,.container3,.container4 > img{
+.container3 { background-image: url(../images/soul.feel_compressed.webp);}
+
+.container1 > img{
     opacity: 0%;
 }
 
-h1,h2,h3,nav { margin-left: 16px;
+h1,h2,h3, nav{ margin-left: 16px;
     margin-right: 16px;
 
 }
@@ -115,8 +127,7 @@ p { font-size: 1.25rem;
 
 }
 
-nav { margin-left: 16px;
-    margin-right: 16px;
+nav {
   position: fixed;
 
 
