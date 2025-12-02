@@ -48,9 +48,7 @@ body { background-color: var(--color-tuscan-50);
 }
 
 
-a > img{ padding-right: 100px;
 
-}
 
 nav + img { margin-right: 6.8125rem;
     cursor: pointer;
