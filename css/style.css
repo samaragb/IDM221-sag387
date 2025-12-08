@@ -61,12 +61,15 @@ z-index:1;
 color: white;
 } 
 
-section > img{ 
-bottom: 25%;
-left: 65%;
+.live{ 
+top: 10%;
+left: 5%;
 z-index:1;
 color: white;
+position: absolute;
 } 
+
+.live > h3 { font-weight: 300;}
 
 .topmain{ position: relative;
 
@@ -80,15 +83,18 @@ margin-left:16px;
 margin-right: 16px;
 border-radius: 10px;
 z-index: 0;
+margin-top: 35px;
 }
 
 
-header + section { position: absolute;
+header > section { position: absolute;
+    bottom: 5%;
+    left: 5%;
 
 }
 
 /* hero image play button */
-section,img {  display: flex;
+section ,img {  display: flex;
   flex-direction: row;
 
 }
@@ -113,13 +119,14 @@ h3, img { display: inline-block;
     margin-top: 14px;
     width: 100% auto;
     margin-right: 16px;
-    min-width: 100px;
-    max-width: 100%;
+    min-width: 360px;
+    max-width: 360px;
     background-image: url(../images/indie.now_compressed.webp);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     border-radius: 10px;
+    height: 525px;
 
    
 }
@@ -132,20 +139,8 @@ h3, img { display: inline-block;
 
 .container4 { background-image: url(../images/work.horse_compressed.webp);}
 
-.container1 > img{
-    opacity: 0%;
-}
-.container2 > img{
-    opacity: 0%;
-}
+.container > footer { padding-top: 300px;}
 
-.container3 > img{
-    opacity: 0%;
-}
-
-.container4 > img{
-    opacity: 0%;
-}
 
 h1,h2,h3, nav{ margin-left: 16px;
     margin-right: 16px;
@@ -181,8 +176,9 @@ p { font-size: 1.25rem;
 }
 
 
+div { margin: 0px auto;}
 
-nav > a:nth-child(1){  padding-right: 100px;
+nav > a:nth-child(1){  padding-right: 80px;
 
 }
 img{ size: 100%;}
@@ -231,28 +227,46 @@ img + section { background-color: #393e40;
 
 }
 
-section + p {
 
-}
 .controls { margin-left: 20.68rem;
     margin-top: 2.125rem;
     margin-bottom: 6.125rem;
 }
 
-.event > img { width: 100%;
-    height: 100%;
-    margin-bottom: 0%;
-  
-
+.event{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 256px;
+    margin-bottom: 20px;
+    position: relative;
 }
+    
+
+.event1{  background-image: url(../images/jan.doe_compressed.webp);}
+
+.event2{  background-image: url(../images/hamton_compressed.webp);}
+
+.event3 {  background-image: url(../images/thistle_compressed.webp);}
+
+
+
+
+
+
 img > section { margin-top: 0px;
     margin-bottom: 0px;
+    position: absolute
+    bottom 30%;
+    left: 15%;
     
 }
-section > p { margin-top: -5px;
+.event > p { margin-top: -5px;
 margin-bottom: 0px;
 margin-left: 16px;
 font-size: 1.3rem;
+position: absolute;
+bottom: 40%;
+left: 10%
 }
 
 .lowersection > h2 { margin-top: -5px;
@@ -260,6 +274,14 @@ font-size: 1.3rem;
     margin-left: 16px;
     font-size: 1.5rem;
     border-radius: 10px;
+    font-weight: 800 ;
+}
+
+.lowersection{ 
+  
+position: absolute;
+width: 100%;
+margin-top: 140px;
 }
 
 .event { margin-top: -5px;
@@ -268,6 +290,7 @@ margin-left: 16px;
 margin-right: 16px;
 font-size: 1.3rem;
 border-radius: 10px;
+position: relative;
 }
 
 footer > div { background-color: var(--woodsmoke700);
