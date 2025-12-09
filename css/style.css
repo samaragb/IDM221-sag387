@@ -149,14 +149,15 @@ h1,h2,h3, nav{ margin-left: 16px;
 
 
 h1 { font-size: 3rem;
-    margin-bottom: 0.67rem;
     line-height: 2.0rem;
+    margin-bottom: 0.4rem;
 
 
 }
 
 h2 { font-size: 1.5rem;
     font-weight: 300;
+    margin-bottom: 0.4rem;
  
 }
 
@@ -167,7 +168,7 @@ h3 { font-size: 1.875rem;
 
 p { font-size: 1.25rem;
     margin-top: 0.375rem;
-    padding-bottom: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     text-wrap: pretty;
@@ -175,6 +176,9 @@ p { font-size: 1.25rem;
 
 }
 
+h1 + h2 { margin-bottom: 0.57rem;
+
+}
 
 div { margin: 0px auto;}
 
@@ -260,38 +264,68 @@ img > section { margin-top: 0px;
     left: 15%;
     
 }
-.event > p { margin-top: -5px;
-margin-bottom: 0px;
-margin-left: 16px;
-font-size: 1.3rem;
-position: absolute;
-bottom: 40%;
-left: 10%
-}
 
-.lowersection > h2 { margin-top: -5px;
+.lowersection > h2 { margin-top: 5px;
     margin-bottom: -0px;
     margin-left: 16px;
     font-size: 1.5rem;
-    border-radius: 10px;
-    font-weight: 800 ;
+   
+    font-weight: 800;
 }
+
+
+ .lowersection > p { margin-bottom: 10px;
+    padding-left: 16px;
+
+ }
+
 
 .lowersection{ 
   
 position: absolute;
 width: 100%;
-margin-top: 140px;
+margin-top: 170px;
+border-top-right-radius: 0px;
+border-top-left-radius: 0px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+
 }
 
 .event { margin-top: -5px;
-margin-bottom: 0px;
+margin-bottom: 40px;
 margin-left: 16px;
 margin-right: 16px;
 font-size: 1.3rem;
 border-radius: 10px;
 position: relative;
 }
+
+.date > p {
+     margin-top: 0px;
+     font-weight: 300;
+}
+
+.date{ color: white;
+    background-color: #393e40;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-radius: 20px;
+     
+}
+
+.date { margin-top: -5px;
+margin-bottom: -5px;
+margin-left: 0px;
+font-size: 1.3rem;
+position: absolute;
+bottom: 39%;
+left: 2%
+
+}
+
 
 footer > div { background-color: var(--woodsmoke700);
     color: var(--white);
@@ -303,7 +337,7 @@ div > ul { padding-top: 5.1875rem;
 
 
 }
-.fill, p { margin-left: 16px;
+.fill> p { margin-left: 16px;
 margin-right: 16px; }
 
 .fill > img { opacity: 0%;}
@@ -311,7 +345,7 @@ margin-right: 16px; }
 .fill { background-image: url(../images/jan.doe_compressed.webp);}
 
 h1, h2 { text-wrap: pretty;
-    margin-bottom: 40px;
+    
 
 }
 
