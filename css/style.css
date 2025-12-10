@@ -84,7 +84,10 @@ margin-right: 16px;
 border-radius: 10px;
 z-index: 0;
 margin-top: 35px;
+max-width: 100%;
+min-width: 360px;
 }
+
 
 
 header > section { position: absolute;
@@ -117,10 +120,11 @@ h3, img { display: inline-block;
 .container1, .container2, .container3, .container4, .fill{ 
     margin-left: 16px;
     margin-top: 14px;
-    width: 100% auto;
+    margin-bottom: 20px;
+    width:  auto;
     margin-right: 16px;
     min-width: 360px;
-    max-width: 360px;
+    max-width: 100%;
     background-image: url(../images/indie.now_compressed.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,6 +145,9 @@ h3, img { display: inline-block;
 
 .container > footer { padding-top: 300px;}
 
+footer > p { padding-left: 16px;
+
+}
 
 h1,h2,h3, nav{ margin-left: 16px;
     margin-right: 16px;
@@ -150,14 +157,14 @@ h1,h2,h3, nav{ margin-left: 16px;
 
 h1 { font-size: 3rem;
     line-height: 2.0rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 2.6rem;
 
 
 }
 
 h2 { font-size: 1.5rem;
     font-weight: 300;
-    margin-bottom: 0.4rem;
+    margin-bottom: 2.6rem;
  
 }
 
@@ -176,11 +183,11 @@ p { font-size: 1.25rem;
 
 }
 
-h1 + h2 { margin-bottom: 0.57rem;
 
+
+
+div {  margin: 0px auto;   
 }
-
-div { margin: 0px auto;}
 
 nav > a:nth-child(1){  padding-right: 80px;
 
@@ -205,6 +212,8 @@ li > img { border-radius: 10px;
 
 .playlist{ background-color:#1f4e74;
     color: #fff;
+    margin-left: 16px;
+    margin-right: 16px;
 }
   /* thumbnails */
 .header > img{ width: 100%;
@@ -212,8 +221,9 @@ li > img { border-radius: 10px;
 
 }
 
-img , figure { display: inline-block;
+figure { display: inline-block;
     margin-left: 10px;
+
 
 }
 
@@ -337,18 +347,24 @@ div > ul { padding-top: 5.1875rem;
 
 
 }
+
+/* artist page */
+
 .fill> p { margin-left: 16px;
 margin-right: 16px; }
 
-.fill > img { opacity: 0%;}
 
-.fill { background-image: url(../images/jan.doe_compressed.webp);}
+
+.fill { background-image: url(../images/jan.doe_compressed.webp);
+
+  
+}
 
 h1, h2 { text-wrap: pretty;
     
 
 }
 
-footer > p { padding-bottom: 40px;
+.event > p { padding-bottom: 40px;
 
 }
