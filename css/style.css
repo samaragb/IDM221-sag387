@@ -76,7 +76,7 @@ position: absolute;
 }
 
 /* video hero */
-.video{ width: 360px;
+#myvideo{ width: 360px;
 height: 525px;
 object-fit: cover;
 margin-left:16px;
@@ -86,14 +86,8 @@ z-index: 0;
 margin-top: 35px;
 max-width: 100%;
 min-width: 360px;
-
-
-
 }
 
-iframe{
-    border-radius: 10px;
-}
 
 
 header > section { position: absolute;
@@ -179,7 +173,7 @@ h3 { font-size: 1.875rem;
 }
 
 p { font-size: 1.25rem;
-    margin-top: 0rem;
+    margin-top: 0.375rem;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -206,8 +200,14 @@ padding-top: 0px;
 
 }
 
-li {
+a {
      text-decoration: none;
+     color: black
+     
+}
+
+a:hover{ color: #546166;
+
 }
 
 li > img { border-radius: 10px;
@@ -456,6 +456,100 @@ h1, h2 { text-wrap: pretty;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-
     border-radius: 30px;
 }
+
+.bigevent { 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bigevent { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 404px;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+
+}
+
+.bigevent1 { background-image: url(../images/rivver_band_photo.webp);
+    margin-top: 2.6rem;
+
+}
+
+.bigevent2 { background-image: url(../images/velvet.static_band_photo.webp);
+
+
+}
+
+.bigevent3 { background-image: url(../images/fernway_band_Photo.webp);
+
+}
+
+.bigevent4 {background-image: url(../images/elisa.wilde_compressed.webp);
+    background-position: center;
+
+}
+
+.lowersectionevent { background-color: #1f4e74;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lowersectionevent > p { padding-bottom: 10px;
+    padding-left: 16px;
+
+
+}
+
+.lowersectionevent > h2 { font-weight: 700;
+
+}
+
+.bigevent > .time { background-color: #153450;
+    margin-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    min-width: 150px;
+    border-radius: 30px;
+
+}
+
+.time > p { margin-top: 0px;
+    margin-left: 10px;
+
+}
+
+.footer > p{ text-align: center;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.footer > a { text-align: center;
+    color: white;
+    margin-bottom: 10px;
+
+}
+ .footer > ul { text-align: center;
+
+ }
+
+.footer{ padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #40484a;
+
+}
+
