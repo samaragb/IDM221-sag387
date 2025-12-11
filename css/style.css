@@ -123,7 +123,6 @@ h3, img { display: inline-block;
     margin-bottom: 20px;
     width:  auto;
     margin-right: 16px;
-    min-width: 360px;
     max-width: 100%;
     background-image: url(../images/indie.now_compressed.webp);
     background-size: cover;
@@ -189,7 +188,7 @@ p { font-size: 1.25rem;
 div {  margin: 0px auto;   
 }
 
-nav > a:nth-child(1){  padding-right: 80px;
+nav > a:nth-child(1){  padding-right: 110px;
 
 }
 img{ size: 100%;}
@@ -214,7 +213,15 @@ li > img { border-radius: 10px;
     color: #fff;
     margin-left: 16px;
     margin-right: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+.container > img{ display: inline-block;
+
+
+}
+
   /* thumbnails */
 .header > img{ width: 100%;
     height: 100%;
@@ -342,8 +349,8 @@ footer > div { background-color: var(--woodsmoke700);
 
 }
 
-div > ul { padding-top: 5.1875rem;
-    padding-bottom: 5.1875rem;
+div > ul { padding-top: 1.1875rem;
+    padding-bottom: 1.1875rem;
 
 
 }
@@ -355,10 +362,14 @@ margin-right: 16px; }
 
 
 
+
 .fill { background-image: url(../images/jan.doe_compressed.webp);
+    background-position: center;
+ 
 
   
 }
+
 
 h1, h2 { text-wrap: pretty;
     
@@ -366,5 +377,62 @@ h1, h2 { text-wrap: pretty;
 }
 
 .event > p { padding-bottom: 40px;
+
+}
+
+.artist1{  background-image: url(../images/wilder_band_photo.webp);
+
+}
+
+.artist2{  background-image: url(../images/hamton_compressed.webp);
+
+}
+.artist3{  background-image: url(../images/rivver_band_photo.webp);
+
+}
+.artist4{  background-image: url(../images/new_wave_heroes_band_photo.webp);
+
+}
+.artist5{  background-image: url(../images/velvet.static_band_photo.webp);
+
+}
+.artist6{  background-image: url(../images/fernway_band_Photo.webp);
+
+}
+.artist7{  background-image: url(../images/elisa.wilde_compressed.webp);
+
+}
+.artist8{  background-image: url(../images/thistle_compressed.webp);
+}
+
+.artist { background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 260px;
+   margin-left: 16px;
+   margin-right: 16px;
+   margin-bottom: 40px;
+   border-radius: 10px;
+
+}
+
+.bottomportion  { display: flex;
+  flex-direction: row;
+  padding-bottom: 0.8rem;
+  margin-left: 16px;
+
+}
+
+.bottomportion > img { padding-left: 10px;
+
+}
+
+.overlay { position: absolute;
+    margin-top: 300px;
+
+}
+
+.overlay > p { margin-left: 16px;
+    margin-right: 16px;
 
 }
