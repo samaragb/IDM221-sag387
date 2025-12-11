@@ -206,7 +206,8 @@ a {
      
 }
 
-a:hover{ color: #546166;
+ h1 > a:hover{ color: #546166;
+    text-decoration: underline;
 
 }
 
@@ -221,6 +222,7 @@ li > img { border-radius: 10px;
     margin-right: 16px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .playlist > img{ display: inline-block;
@@ -239,6 +241,8 @@ figure { display: inline-block;
 
 
 }
+
+
 
 /* events */
 .lowersection, .bigevent { background-color: #546166;
@@ -360,6 +364,27 @@ div > ul { padding-top: 1.1875rem;
 
 
 }
+
+.oftheweek { background-image: url(../images/jan.doe_compressed.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 576px;
+    background-position: center;
+    border-radius: 10px;
+    
+ 
+}
+
+.bottomoverlay > h1 { padding-bottom: 60px;
+    padding-left: 16px;
+    color: white;
+  
+ 
+
+}
+
 
 /* artist page */
 
